@@ -4,41 +4,28 @@ body  {
     width:100%;
     padding:0;
 	background-color: #FEFDF9;
-	-webkit-font-smoothing: antialiased;
 }
 
 
-.wrapper {
-	width: 100%;
-	max-width: 1000px;
-	min-width: 800px;
-	margin: 0 auto;
-	position: relative;
-	padding-left: 160px;
-	padding-top: 87px;
+#wrapper {
+	left: 20%;
+	max-width: 880px;
+	top:29%;
+	position: absolute;
 }
 
-.title {
-	width: 100%;
-	min-height: 350px;
-	margin: 180px auto 180px auto;
+.position {
+	color: #86C1BF; 
+
 }
 
-
-h1{
-	font-family: 'Gentium Basic', serif;
-	font-style: italic; 
-	color:#969282;
-	font-size: 50px;
-}
-
-p{
+.title p{
 	font-family: 'Lato', sans-serif;
-	font-size: 80px;
-	font-weight: bold;
-	color: #2E2D2A;
-	line-height: 110px;
+	font-size: 5em;
+	font-weight: 900;
+	color: #1D1C1A;
+	line-height: 1.35em;
 	padding: 0;	
-	margin: 0;
+	margin: 20px 0 0 0;
 }
 
