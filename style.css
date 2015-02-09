@@ -1,0 +1,31 @@
+body  {
+	height: 100%;
+    margin: 0;
+    width:100%;
+    padding:0;
+	background-color: #FEFDF9;
+}
+
+
+#wrapper {
+	left: 20%;
+	max-width: 880px;
+	top:29%;
+	position: absolute;
+}
+
+.position {
+	color: #86C1BF; 
+
+}
+
+.title p{
+	font-family: 'Lato', sans-serif;
+	font-size: 5em;
+	font-weight: 900;
+	color: #1D1C1A;
+	line-height: 1.35em;
+	padding: 0;	
+	margin: 20px 0 0 0;
+}
+
