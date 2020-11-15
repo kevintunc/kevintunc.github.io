@@ -9,6 +9,7 @@ html, body {
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
   background-color: #222222;
   font-family: Larsseit, -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", Helvetica, Arial;
+  overflow-x: hidden !important;
 }
 
 @font-face {
@@ -199,12 +200,16 @@ ul.social {
 @media screen and (max-width: 800px) {
 
   #content-wrapper {
-  padding: 0 40px;
-  width: 100%;
+    padding: 0 40px;
+    width: 100%;
   }
 
   .column {
     width: 100%;
+  }
+
+  .left{
+    margin-right: 0;
   }
 
   header h1 {
