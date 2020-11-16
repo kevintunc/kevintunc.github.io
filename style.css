@@ -10,6 +10,7 @@ html, body {
   background-color: #222222;
   font-family: Larsseit, -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", Helvetica, Arial;
   overflow-x: hidden !important;
+  height: auto;
 }
 
 @font-face {
