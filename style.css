@@ -4,13 +4,16 @@
 }
 
 html, body {
-  height: 100%;
   -webkit-font-smoothing: antialiased;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-  background-color: #222222;
-  font-family: Larsseit, -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", Helvetica, Arial;
+  background: #222222;
+  font-family: Larsseit, -apple-system, BlinkMacSystemFont, Helvetica, Arial;
   overflow-x: hidden !important;
   height: auto;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(180deg, #1A1A1B 0%, #222222 100%);
 }
 
 @font-face {
